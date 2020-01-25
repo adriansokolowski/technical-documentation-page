@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+#navbar {
+    position: fixed;
+    width: 30rem;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 1.6rem;
+    border-right: 0.5rem solid black;
+    text-decoration: none;
+    list-style: none;
+}
+
+#navbar header {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 30rem;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+}
+
+#main-doc header {
+    font-size: 4rem;
+}
