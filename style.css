@@ -53,6 +53,10 @@ html {
     padding: 1.5rem 2.5rem;
 }
 
+#main-doc ul {
+    padding-left: 9rem;
+}
+
 #main-doc header {
     font-size: 4rem;
 }
