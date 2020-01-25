@@ -14,8 +14,6 @@ html {
     top: 0;
     font-size: 1.6rem;
     border-right: 0.5rem solid black;
-    text-decoration: none;
-    list-style: none;
 }
 
 #navbar header {
@@ -23,13 +21,48 @@ html {
     text-align: center;
 }
 
+#navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#navbar li {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    border-top: 0.1rem solid black;
+}
+
+#navbar a {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2.4rem;
+    padding: 2rem 2rem;
+    text-decoration: none;
+    color: black;
+}
+
 #main-doc {
     position: absolute;
     margin-left: 30rem;
     font-size: 1.6rem;
-    padding: 1.5rem;
+    padding: 1.5rem 2.5rem;
 }
 
 #main-doc header {
     font-size: 4rem;
+}
+
+#main-doc p {
+    font-size: 2.2rem;
+    padding: 1.5rem;
+}
+
+#main-doc li {
+    padding: 0.5rem;
+    font-size: 2rem;
 }
